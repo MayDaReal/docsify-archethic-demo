@@ -4,22 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Docsify-Archethic Demo</title>
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'Docsify-Archethic Demo',
-      repo: 'https://github.com/MayDaReal/docsify-archethic-demo',
+      name: '',
+      //repo: 'https://github.com/MayDaReal/docsify-archethic-demo',
+	  basePath: 'https://raw.githubusercontent.com/MayDaReal/docsify-archethic-demo/refs/heads/main',
+	  homepage: 'home.md',
       loadSidebar: true,
-      loadNavbar: true,
+	  loadNavbar: true,
       loadFooter: true,
-      basePath: '',
-      maxLevel: 2,
-      auto2top: true
+	  
+	  // SIDEBAR NAVIGATION
+	  // -----------------------------------------------------------------
+      auto2top: true,
+	  maxLevel: 2,
+      subMaxLevel: 2
+	 
     };
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <!-- Footer Plugin -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
 </body>
 </html>
