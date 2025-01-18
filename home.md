@@ -17,8 +17,10 @@ This demo shows how Markdown files can be transformed into a static website with
 1. Configure Docsify-This and prepare the Markdown files.
 2. Deploy the generated site using aeHosting on the Archethic testnet.
 3. Observe how dynamic updates work without needing manual redeployment.
-4. Perform relevant tests to verify dynamic updates as listed below:
 
+## Observations
+
+Perform relevant tests to verify dynamic updates as listed below:
 | **Test Description**                                                       | **Expected Outcome**                                                                                   | **Status** |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|------------|
 | Add a table to list tests that can be done in `home.md` and push it to the GitHub source. | The table is displayed on the browser after a refresh of the page and few minutes after the push    | ✅         |
@@ -31,8 +33,6 @@ This demo shows how Markdown files can be transformed into a static website with
 | Add a new Markdown file `results.md` and link it in `_sidebar.md`.            | The "Results" page is accessible via the sidebar, and its content displays correctly.                  | ⏳         |
 | Update `index.html` to include dependencies for a new JavaScript file to manage CSS styles dynamically. | The site design updates dynamically without requiring redeployment. | ⏳         |
 
-
-## Observations
 
 During the testing process, we will note:
 - The efficiency of dynamic updates.
