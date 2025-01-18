@@ -21,6 +21,7 @@ This demo shows how Markdown files can be transformed into a static website with
 ## Observations
 
 Perform relevant tests to verify dynamic updates as listed below:
+
 | **Test Description**                                                       | **Expected Outcome**                                                                                   | **Status** |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|------------|
 | Add a table to list tests that can be done in `home.md` and push it to the GitHub source. | The table is displayed on the browser after a refresh of the page and few minutes after the push    | ✅         |
