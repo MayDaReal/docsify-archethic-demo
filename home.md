@@ -21,7 +21,7 @@ This demo shows how Markdown files can be transformed into a static website with
 
 | **Test Description**                                                       | **Expected Outcome**                                                                                   | **Status** |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|------------|
-| Add a table to list tests that can be done in `home.md` and push it to the GitHub source. | The table is displayed on the browser after a refresh of the page.                                    | ✅         |
+| Add a table to list tests that can be done in `home.md` and push it to the GitHub source. | The table is displayed on the browser after a refresh of the page and few minutes after the push    | ✅         |
 | Add all Markdown files to manage the French version of this website, and link it accordingly. | The French version of the website is displayed after clicking on the "Français" link in the navigation menu. | ❌         |
 | Modify the sidebar content in `_sidebar.md`.                                | The updated sidebar is reflected across all pages without requiring a redeployment.                  | ⏳         |
 | Add more details in the "Deployment Process" section.                       | The new details are displayed as expected.                                                           | ⏳         |
