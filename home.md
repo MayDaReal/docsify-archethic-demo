@@ -14,10 +14,6 @@ This demo shows how Markdown files can be transformed into a static website with
 
 ## Deployment Process
 
-1. Configure Docsify-This and prepare the Markdown files.
-2. Deploy the generated site using aeHosting on the Archethic testnet.
-3. Observe how dynamic updates work without needing manual redeployment.
-
 To successfully deploy and test a Docsify-This site on Archethic's aeHosting, follow these detailed steps:
 
 ### 1. **Prepare Docsify-This and Markdown Files**
