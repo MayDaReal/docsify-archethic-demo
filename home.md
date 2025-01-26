@@ -18,6 +18,53 @@ This demo shows how Markdown files can be transformed into a static website with
 2. Deploy the generated site using aeHosting on the Archethic testnet.
 3. Observe how dynamic updates work without needing manual redeployment.
 
+To successfully deploy and test a Docsify-This site on Archethic's aeHosting, follow these detailed steps:
+
+### 1. **Prepare Docsify-This and Markdown Files**
+- **Install Docsify-This**: Install Docsify-This using npm by running `npm install docsify-this` in your local development environment.
+- **Create Markdown Files**: Write all the necessary Markdown files (`home.md`, `results.md`, etc.) with appropriate content and structure for your site.
+- **Organize Files**: 
+  - Use `_sidebar.md` for navigation.
+  - Use `_navbar.md` for the top menu bar.
+  - Use `_footer.md` for the site footer.
+- **Add Metadata**: If needed, include metadata for language support, navigation, and styling.
+
+### 2. **Configure Docsify-This**
+- **Generate an `index.html` File**:
+  - Use Docsify-This to generate the `index.html` file.
+  - Ensure it includes all necessary dependencies (e.g., Docsify-This scripts and CSS files).
+- **Enable Plugins**:
+  - Use Docsify plugins such as search, pagination, or themes for a more dynamic user experience.
+  - Add plugin configurations in your `index.html`.
+ 
+- **Explore Available Templates**:
+  - To inspire your site design, check out some [popular Docsify-This templates](https://docsify-this.net/#/) that showcase diverse customization options.
+
+### 3. **Push the Repository to GitHub**
+- **Upload Files**:
+  - Push all Markdown files, `index.html`, `_sidebar.md`, `_navbar.md`, and `_footer.md` to your GitHub repository.
+- **Enable Docsify-This Compatibility**:
+  - Include a `.nojekyll` file in the repository to ensure GitHub Pages doesn’t interfere with Docsify-This.
+
+### 4. **Deploy to Archethic's aeHosting**
+- **Upload Files**:
+  - Deploy only the `index.html` and `.nojekyll` files to Archethic's aeHosting.
+- **Deployment on Testnet**:
+  - Use Archethic's testnet interface to upload the files.
+  - Verify that the deployment is successful and the site is accessible via the provided link.
+
+### 5. **Test Dynamic Updates**
+- **Make Changes Locally**:
+  - Update any Markdown file in the GitHub repository (e.g., modify `home.md` or add a new file).
+- **Verify Updates**:
+  - Check the deployed site after a few minutes to confirm that the changes are reflected without needing manual redeployment.
+
+### 6. **Monitor Performance and Accessibility**
+- **Responsive Design**:
+  - Test the site's responsiveness on various devices (desktop, tablet, mobile).
+- **Performance**:
+  - Check loading speed and ensure seamless navigation.
+
 ## Observations
 
 Perform relevant tests to verify dynamic updates as listed below:
